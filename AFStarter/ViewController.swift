@@ -13,6 +13,16 @@ import SwiftyJSON
 
 class ViewController: UIViewController {
 
+    
+    @IBAction func getButtonPressed(_ sender: Any) {
+        
+        let url = "https://api.darksky.net/forecast/ab7e37126fbeddc41405bc6e414058fe/43.6532,-79.3832?units=ca"
+        
+        
+    }
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

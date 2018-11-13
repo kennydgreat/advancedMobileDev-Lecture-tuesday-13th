@@ -16,7 +16,23 @@ class ViewController: UIViewController {
     
     @IBAction func getButtonPressed(_ sender: Any) {
         
-        let url = "https://api.darksky.net/forecast/ab7e37126fbeddc41405bc6e414058fe/43.6532,-79.3832?units=ca"
+        let URL = "https://api.darksky.net/forecast/ab7e37126fbeddc41405bc6e414058fe/43.6532,-79.3832?units=ca"
+        
+        // ALAMOFIRE function: get the data from the website
+        Alamofire.request(URL, method: .get, parameters: nil).responseJSON {
+            (reponse) in
+            
+            // -- put your code below this line
+            
+            
+            
+            
+        }
+        
+        // SWIFTYJSON functions: parse the data
+        
+        
+        // SWIFT: do somethign with the data
         
         
     }
